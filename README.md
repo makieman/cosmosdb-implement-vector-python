@@ -107,16 +107,3 @@ Open: http://127.0.0.1:5000
 
 ## License
 MIT License
-
----
-
-## Interview / CV Summary
-
-### Short version
-Built a vector-search demo using Azure Cosmos DB for NoSQL and a Flask UI, enabling semantic search over embedded documents with metadata filtering.
-
-### Medium version
-Designed and implemented a Python Flask app that stores embedded document chunks in Azure Cosmos DB (vector search), performs similarity search, and supports filtered queries by metadata. Used Entra ID authentication and an idempotent upsert model to keep data consistent.
-
-### Interview-ready version
-I built a production-style demo where documents are chunked and stored with embeddings in Azure Cosmos DB for NoSQL. At query time, the app performs vector similarity search to retrieve the most relevant chunks, and it can narrow results with metadata filters. I focused on schema design, partitioning by `documentId`, and idempotent writes so the data model scales cleanly and is easy to maintain.
